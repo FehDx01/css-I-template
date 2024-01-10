@@ -1,0 +1,34 @@
+/*em texto é possível usar, ainda
+px
+em --> elemento pai
+rem --> definido globalmente */
+
+* {
+    /* universal --- todas as linhas*/
+    padding: 0;
+    margin: 0;
+    font-size: 20px /* uso do rem*/;
+}
+
+h1 {
+    color: lightblue;
+    background-color: blue;
+}
+
+main {
+    background-color: blue;
+    width: 50vw;
+    /* usando unidade relativa */
+    height: 50vh;
+}
+
+/* unidades relativas (vw) são necessárias para maior precisão em relação ao px */
+/*também pode ser utilizado % -- mas não está usando o viewport*/
+
+p {
+    background-color: lightcoral;
+}
+
+span {
+    background-color: aqua;
+}

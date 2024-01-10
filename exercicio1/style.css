@@ -1,0 +1,38 @@
+/*Feito em aula sem o slide*/
+/*id # - mais forte, por ser específico
+class . - menos forte
+tag (pega direto) - mais fraco*/
+
+h1{
+    background-color: blue;
+    color: white;
+}
+
+/*neste caso o id prevaleceu, por ser mais forte*/
+
+section{
+    background-color: green;
+}
+
+.sub-titulo{
+    background-color: yellow;
+    color: black;
+}
+
+.titulo-secao{
+    background-color: green;
+    color: white;
+}
+
+#titulo-h3{
+    color: white;
+}
+
+.texto-generico{
+    color: black;
+}
+
+footer{
+    background-color: black;
+    color: white;
+}
