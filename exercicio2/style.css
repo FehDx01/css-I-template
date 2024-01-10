@@ -1,22 +1,36 @@
+
+
 .longe-bordas{
     background-color: #FFA6A9;
+    border: 5px dotted black;
+    /*border os elementos adicionados ficam como topo direta base esquerda, ou seja, cada número adicionado na linha obedecerá esta regra*/
+    padding: 2px;
+    /*no padding é topo/base esquerda/direita, nesta ordem -- é diferente da regra do border*/
+
   }
   
   .afastado{
     background-color: #77C0ED;
+    margin: 70px;
   }
   .alto{
     background-color: #C3E887;
+    background-color: #FFE396;
+    /* height: 300px; lembrar px é sempre fixo*/
+    height: 300px;
   }
   
   .largo{
-  background-color: #FFE396;
+    background-color: #77C0ED;
+    width: 500px;
+    /* width: 50vh; */
   }
   
   .bordado{
     background-color: #AF9BCC;
+    border: 1px dashed black;
   }
   
   .sumido{
-   
+   display: none; /*Aqui ele fica invisível*/
   }
